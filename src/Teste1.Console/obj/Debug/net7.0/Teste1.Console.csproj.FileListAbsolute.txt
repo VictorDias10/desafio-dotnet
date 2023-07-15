@@ -1,0 +1,15 @@
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/bin/Debug/net7.0/Teste1.Console
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/bin/Debug/net7.0/Teste1.Console.deps.json
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/bin/Debug/net7.0/Teste1.Console.runtimeconfig.json
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/bin/Debug/net7.0/Teste1.Console.dll
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/bin/Debug/net7.0/Teste1.Console.pdb
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/obj/Debug/net7.0/Teste1.Console.csproj.AssemblyReference.cache
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/obj/Debug/net7.0/Teste1.Console.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/obj/Debug/net7.0/Teste1.Console.AssemblyInfoInputs.cache
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/obj/Debug/net7.0/Teste1.Console.AssemblyInfo.cs
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/obj/Debug/net7.0/Teste1.Console.csproj.CoreCompileInputs.cache
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/obj/Debug/net7.0/Teste1.Console.dll
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/obj/Debug/net7.0/refint/Teste1.Console.dll
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/obj/Debug/net7.0/Teste1.Console.pdb
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/obj/Debug/net7.0/Teste1.Console.genruntimeconfig.cache
+/Users/adrianodts/projects/desafio-dotnet/src/Teste1.Console/obj/Debug/net7.0/ref/Teste1.Console.dll
