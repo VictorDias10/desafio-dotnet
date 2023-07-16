@@ -1,0 +1,15 @@
+C:\projects\desafio-dotnet\src\Teste3.Console\obj\Debug\net6.0\Teste3.Console.csproj.AssemblyReference.cache
+C:\projects\desafio-dotnet\src\Teste3.Console\obj\Debug\net6.0\Teste3.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\desafio-dotnet\src\Teste3.Console\obj\Debug\net6.0\Teste3.Console.AssemblyInfoInputs.cache
+C:\projects\desafio-dotnet\src\Teste3.Console\obj\Debug\net6.0\Teste3.Console.AssemblyInfo.cs
+C:\projects\desafio-dotnet\src\Teste3.Console\obj\Debug\net6.0\Teste3.Console.csproj.CoreCompileInputs.cache
+C:\projects\desafio-dotnet\src\Teste3.Console\bin\Debug\net6.0\Teste3.Console.exe
+C:\projects\desafio-dotnet\src\Teste3.Console\bin\Debug\net6.0\Teste3.Console.deps.json
+C:\projects\desafio-dotnet\src\Teste3.Console\bin\Debug\net6.0\Teste3.Console.runtimeconfig.json
+C:\projects\desafio-dotnet\src\Teste3.Console\bin\Debug\net6.0\Teste3.Console.dll
+C:\projects\desafio-dotnet\src\Teste3.Console\bin\Debug\net6.0\Teste3.Console.pdb
+C:\projects\desafio-dotnet\src\Teste3.Console\obj\Debug\net6.0\Teste3.Console.dll
+C:\projects\desafio-dotnet\src\Teste3.Console\obj\Debug\net6.0\refint\Teste3.Console.dll
+C:\projects\desafio-dotnet\src\Teste3.Console\obj\Debug\net6.0\Teste3.Console.pdb
+C:\projects\desafio-dotnet\src\Teste3.Console\obj\Debug\net6.0\Teste3.Console.genruntimeconfig.cache
+C:\projects\desafio-dotnet\src\Teste3.Console\obj\Debug\net6.0\ref\Teste3.Console.dll
