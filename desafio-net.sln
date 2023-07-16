@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste1.Console", "src\Teste
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste2.Console", "src\Teste2.Console\Teste2.Console.csproj", "{7D5B8DCB-B55C-495E-BA46-3BB02268F63A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste3.Console", "src\Teste3.Console\Teste3.Console.csproj", "{6383511A-6395-4C86-A0F6-31F9A57E3558}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste3.Console", "src\Teste3.Console\Teste3.Console.csproj", "{6383511A-6395-4C86-A0F6-31F9A57E3558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste4.WindowsForms", "src\Teste4.WindowsForms\Teste4.WindowsForms.csproj", "{47B67FF3-1D85-43AA-AFDD-4EBAFAD2432D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{6383511A-6395-4C86-A0F6-31F9A57E3558}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6383511A-6395-4C86-A0F6-31F9A57E3558}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6383511A-6395-4C86-A0F6-31F9A57E3558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B67FF3-1D85-43AA-AFDD-4EBAFAD2432D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B67FF3-1D85-43AA-AFDD-4EBAFAD2432D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B67FF3-1D85-43AA-AFDD-4EBAFAD2432D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B67FF3-1D85-43AA-AFDD-4EBAFAD2432D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{CC653974-F8B0-40AA-9E82-FCEF8FC61C63} = {952E286C-D01B-4EA9-BB20-6BD6F2B0F96B}
 		{7D5B8DCB-B55C-495E-BA46-3BB02268F63A} = {952E286C-D01B-4EA9-BB20-6BD6F2B0F96B}
 		{6383511A-6395-4C86-A0F6-31F9A57E3558} = {952E286C-D01B-4EA9-BB20-6BD6F2B0F96B}
+		{47B67FF3-1D85-43AA-AFDD-4EBAFAD2432D} = {952E286C-D01B-4EA9-BB20-6BD6F2B0F96B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {87597B2A-541C-45DE-8D41-7B3BD714846B}
