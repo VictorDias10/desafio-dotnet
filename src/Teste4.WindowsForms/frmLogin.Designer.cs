@@ -1,6 +1,6 @@
 ﻿namespace Teste4.WindowsForms
 {
-    partial class frmLogin
+    partial class FrmLogin
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -58,7 +58,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(176, 81);
+            this.label1.Location = new System.Drawing.Point(202, 81);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 16);
             this.label1.TabIndex = 3;
@@ -67,14 +67,15 @@
             // txtSenha
             // 
             this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSenha.Location = new System.Drawing.Point(179, 100);
+            this.txtSenha.Location = new System.Drawing.Point(205, 100);
             this.txtSenha.Name = "txtSenha";
+            this.txtSenha.PasswordChar = '*';
             this.txtSenha.Size = new System.Drawing.Size(100, 22);
             this.txtSenha.TabIndex = 2;
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(294, 97);
+            this.btnEntrar.Location = new System.Drawing.Point(355, 97);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(110, 27);
             this.btnEntrar.TabIndex = 4;
@@ -86,7 +87,7 @@
             // 
             this.errorProvider.ContainerControl = this;
             // 
-            // frmLogin
+            // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -96,7 +97,7 @@
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.lblLogin);
             this.Controls.Add(this.txtLogin);
-            this.Name = "frmLogin";
+            this.Name = "FrmLogin";
             this.Text = "Login do Professor";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.ResumeLayout(false);
