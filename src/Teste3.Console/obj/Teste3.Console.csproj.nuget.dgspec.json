@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\desafio-dotnet\\src\\Teste1.Console\\Teste1.Console.csproj": {}
+    "C:\\projects\\desafio-dotnet\\src\\Teste3.Console\\Teste3.Console.csproj": {}
   },
   "projects": {
-    "C:\\projects\\desafio-dotnet\\src\\Teste1.Console\\Teste1.Console.csproj": {
+    "C:\\projects\\desafio-dotnet\\src\\Teste3.Console\\Teste3.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\desafio-dotnet\\src\\Teste1.Console\\Teste1.Console.csproj",
-        "projectName": "Teste1.Console",
-        "projectPath": "C:\\projects\\desafio-dotnet\\src\\Teste1.Console\\Teste1.Console.csproj",
+        "projectUniqueName": "C:\\projects\\desafio-dotnet\\src\\Teste3.Console\\Teste3.Console.csproj",
+        "projectName": "Teste3.Console",
+        "projectPath": "C:\\projects\\desafio-dotnet\\src\\Teste3.Console\\Teste3.Console.csproj",
         "packagesPath": "C:\\Users\\vdias\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\desafio-dotnet\\src\\Teste1.Console\\obj\\",
+        "outputPath": "C:\\projects\\desafio-dotnet\\src\\Teste3.Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vdias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",

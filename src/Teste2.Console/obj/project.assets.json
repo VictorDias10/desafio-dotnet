@@ -8,24 +8,26 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/adrianodts/.nuget/packages/": {}
+    "C:\\Users\\vdias\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/adrianodts/projects/desafio-dotnet/src/Teste2.Console/Teste2.Console.csproj",
+      "projectUniqueName": "C:\\projects\\desafio-dotnet\\src\\Teste2.Console\\Teste2.Console.csproj",
       "projectName": "Teste2.Console",
-      "projectPath": "/Users/adrianodts/projects/desafio-dotnet/src/Teste2.Console/Teste2.Console.csproj",
-      "packagesPath": "/Users/adrianodts/.nuget/packages/",
-      "outputPath": "/Users/adrianodts/projects/desafio-dotnet/src/Teste2.Console/obj/",
+      "projectPath": "C:\\projects\\desafio-dotnet\\src\\Teste2.Console\\Teste2.Console.csproj",
+      "packagesPath": "C:\\Users\\vdias\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\desafio-dotnet\\src\\Teste2.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/adrianodts/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\vdias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bHESsP+3gWT2xgGFaS3ismYanqBYm3jUvrekUWiu+A3JUYiuYFYdK2J3NWfjmUuHsDHt8IHB6kV9trkJCuiVQA==",
+  "dgSpecHash": "dRIJYsymzWb+c+OW86v3ws77tdK2Mw7eicBmy3kwXKpbcpKJZLn42ArnK7wvJXt/Eek0skYPkVyfUd2sSJf6lQ==",
   "success": true,
-  "projectFilePath": "/Users/adrianodts/projects/desafio-dotnet/src/Teste2.Console/Teste2.Console.csproj",
+  "projectFilePath": "C:\\projects\\desafio-dotnet\\src\\Teste2.Console\\Teste2.Console.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
