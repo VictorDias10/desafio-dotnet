@@ -16,5 +16,10 @@ namespace Teste4.WindowsForms
         {
             InitializeComponent();
         }
+
+        private void FrmNotas_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

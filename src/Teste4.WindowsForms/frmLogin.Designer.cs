@@ -35,6 +35,7 @@
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.btnEntrar = new System.Windows.Forms.Button();
             this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.lblErro = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.SuspendLayout();
             // 
@@ -87,11 +88,21 @@
             // 
             this.errorProvider.ContainerControl = this;
             // 
+            // lblErro
+            // 
+            this.lblErro.AutoSize = true;
+            this.lblErro.ForeColor = System.Drawing.Color.Red;
+            this.lblErro.Location = new System.Drawing.Point(65, 138);
+            this.lblErro.Name = "lblErro";
+            this.lblErro.Size = new System.Drawing.Size(0, 16);
+            this.lblErro.TabIndex = 5;
+            // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(572, 251);
+            this.Controls.Add(this.lblErro);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSenha);
@@ -113,6 +124,7 @@
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.ErrorProvider errorProvider;
+        private System.Windows.Forms.Label lblErro;
     }
 }
 

@@ -30,17 +30,29 @@ namespace Teste4.WindowsForms
         private bool validarCampos()
         {
             bool isValid = true;
+            string erroLogin = "O Login é obrigatório";
+            string erroSenha = "A Senha é obrigatório";
+            List<string> erros = new List<string>();
+
             errorProvider.Clear();
+            lblErro.Text = String.Empty;
             if (txtLogin.Text == string.Empty)
             {
-                errorProvider.SetError(txtLogin, "O Login é obrigatório");
+                errorProvider.SetError(txtLogin, erroLogin);
+                erros.Add(erroLogin);
                 isValid = false;
             }
             if (txtSenha.Text == string.Empty)
             {
-                errorProvider.SetError(txtSenha, "A Senha é obrigatório");
+                errorProvider.SetError(txtSenha, erroSenha);
+                erros.Add(erroSenha);
                 isValid = false;
             }
+            foreach(string erro in erros)
+            {
+                lblErro.Text += $"\n{erro}"; 
+            }
+
             return isValid;
         }
     }
