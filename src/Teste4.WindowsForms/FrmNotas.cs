@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,7 +34,7 @@ namespace Teste4.WindowsForms
             if (validarCampos())
             {
                 string resultado = String.Empty;
-                float mediaNotas = calcularMedia();
+                float mediaNotas = this.calcularMedia();
                 if (mediaNotas >= notaCorte)
                 {
                     resultado = "Aprovado";
@@ -44,6 +45,8 @@ namespace Teste4.WindowsForms
                     lblResultado.ForeColor = Color.Red;
                 }
                 lblResultado.Text = resultado;
+
+                this.save();
             }
         }
 
@@ -91,6 +94,32 @@ namespace Teste4.WindowsForms
                 isValid = false;
             }
             return isValid;
+        }
+
+        private void save()
+        {
+            string connetionString = null;
+            connetionString = "server=localhost;database=escola;uid=root;pwd=root;";
+            using (MySqlConnection cn = new MySqlConnection(connetionString))
+            {
+                try
+                {
+                    string query = "insert into alunos (nome, notaPrimeiroSemestre, notaSegundoSemestre, ano) values (?nome, ?notaPrimeiroSemestre, ?notaSegundoSemestre, ?ano)";
+                    cn.Open();
+                    using (MySqlCommand cmd = new MySqlCommand(query, cn))
+                    {
+                        cmd.Parameters.Add("?nome", MySqlDbType.VarChar).Value = txtNomeDoAluno.Text;
+                        cmd.Parameters.Add("?notaPrimeiroSemestre", MySqlDbType.Float).Value = txtNotaPrimeiroSemestre.Text;
+                        cmd.Parameters.Add("?notaSegundoSemestre", MySqlDbType.Float).Value = txtNotaSegundoSemestre.Text;
+                        cmd.Parameters.Add("?ano", MySqlDbType.Int32).Value = DateTime.Now.Year;
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+                catch (MySqlException ex)
+                {
+                    MessageBox.Show("Não foi possível gravar dados do aluno");
+                }
+            }
         }
     }
 }
